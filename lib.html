@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>MALRS Asia II - Library</title>
+  <link rel="icon" type="image/x-icon" href="style/favicon.ico">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">MALRS<span class="logo_colour">Asia</span> -2</a></h1>
+          <h2>Simple, Free, Software tools.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="apps.html">Apps</a></li>
+          <li><a href="python.html">Python</a></li>
+          <li class="selected"><a href="lib.html">Python Library</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>News</h3>
+	    <h4>MakeQRCode updated</h4>
+            <h5>March 13th, 2024</h5>
+            <p>Make QR-code as PNG makeqrcode-png updated to version 0.2.</p>
+            <h4>Website Launched</h4>
+            <h5>March 11th, 2024</h5>
+            <p>We cordially invite you to peruse our webpage and share your valuable feedback with us.<br /><a href="#">Read more</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="https://www.google.com/">Google</a></li>
+              <li><a href="https://www.github.com/">github</a></li>
+              <li><a href="https://copilot.microsoft.com/">Copilot AI</a></li>
+              <li><a href="https://www.google.com/">-----</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Search</h3>
+            <form method="post" action="#" id="search_form">
+              <p>
+                <input class="search" type="text" name="search_field" value="Enter keywords....." />
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <p>A Python library is a collection of related modules that contain precompiled code. These libraries play a crucial role in making Python programming more efficient and convenient for developers. Here are some key points about Python libraries:</p>
+        <ul>
+          <li>Code Reusability: Python libraries contain bundles of code that can be reused across different programs. This eliminates the need for developers to write the same code repeatedly for different programs.</li>
+          <li>Diverse Functionality: Python libraries offer a wide range of functionalities. They are extensively used in fields like Machine Learning, Data Science, and Data Visualization.</li>
+          <li>Ease of Use: When a program linked with a library is run, the linker automatically searches for that library, extracts its functionalities, and interprets the program accordingly.</li>
+          <li>Python Standard Library: The Python Standard Library is a core component of Python, providing access to basic system functionality like I/O. It consists of more than 200 core modules, many of which are written in the C programming language.</li>
+          <li>Third-Party Libraries: In addition to the standard library, Python has an active collection of hundreds of thousands of components, from individual programs and modules to packages and entire application development frameworks.</li>
+        </ul>
+
+        <p><h1>Below are some standard Python libraries and their functions</h1></p>        
+        <table>
+          <thead><tr><th align="center">Library Name</th><th align="center">Category</th><th align="center">Description</th></tr></thead>
+
+          <tbody><tr><td align="center">math</td><td align="center">Mathematics</td><td align="center">Provides mathematical functions, including trigonometric, logarithmic, and other functions.</td></tr>
+                 <tr><td align="center">datetime</td><td align="center">Date and Time</td><td align="center">Provides functions to manipulate dates and times, including time parsing, formatting, and arithmetic.</td></tr>
+                 <tr><td align="center">os</td><td align="center">Operating System</td><td align="center">Provides a portable way of using operating system dependent functionality, like reading or writing to files.</td></tr>
+                 <tr><td align="center">sys</td><td align="center">System-specific</td><td align="center">Allows Python programs to manipulate parts of the run-time environment such as command line arguments or exit status.</td></tr>
+                 <tr><td align="center">random</td><td align="center">Random Value</td><td align="center">Generates pseudo-random numbers, enables random element selection, random permutations and more.</td></tr>
+                 <tr><td align="center">json</td><td align="center">JSON</td><td align="center">Offers methods to manipulate JSON objects, including parsing, serializing, and deserializing.</td></tr>
+                 <tr><td align="center">re</td><td align="center">Regular Expressions</td><td align="center">Provides functions to work with regular expressions for powerful string manipulation techniques.</td></tr>
+                 <tr><td align="center">sqlite3</td><td align="center">Database</td><td align="center">Allows interaction with SQLite database, a lightweight disk-based database that doesn&#8217;t require separate server process.</td></tr>
+                 <tr><td align="center">csv</td><td align="center">CSV Files</td><td align="center">Allows the reading and writing of CSV files, which enables the manipulation and organization of data in table form.</td></tr>
+                 <tr><td align="center">collections</td><td align="center">Collections</td><td align="center">Provides alternatives to built-in container data types such as list, set, dict, and tuple. Includes special types like Counter, deque and ordered dictionary.</td></tr>
+                 <tr><td align="center">argparse</td><td align="center">Command-line</td><td align="center">Handles command-line options and arguments, and generates usage messages. Offers a straightforward way to obtain command-line arguments into your scripts.</td></tr>
+                 <tr><td align="center">functools</td><td align="center">Functional Programming</td><td align="center">Provides tools for working with functions, such as higher-order functions, and functions that act on or return other functions.</td></tr><tr><td align="center">threading</td><td align="center">Multithreading</td><td align="center">Provides multiple threads of execution, useful when you want to improve the application performance by allowing multiple operations to run in parallel.</td></tr>
+                 <tr><td align="center">multiprocessing</td><td align="center">Multiprocessing</td><td align="center">A package that supports spawning processes using an API similar to the threading module.</td></tr>
+                 <tr><td align="center">urllib</td><td align="center">URL handling modules</td><td align="center">Fetch URLs and provides functionality for parsing URLs and changing between absolute and relative paths.</td></tr><tr><td align="center">statistics</td><td align="center">Statistics</td><td align="center">Provides functions to calculate mathematical statistics of numerical data.</td></tr>
+                 <tr><td align="center">http.server</td><td align="center">HTTP Servers</td><td align="center">This module defines classes for implementing HTTP servers (Web servers).</td></tr>
+<tr><td align="center">http.client</td><td align="center">HTTP Clients</td><td align="center">Contains classes for making HTTP requests.</td></tr>
+                 <tr><td align="center">smtpd</td><td align="center">SMTP Servers</td><td align="center">Defines an SMTP server which can receive e-mails and optionally pass them on to a real SMTP server.</td></tr>
+                 <tr><td align="center">smtplib</td><td align="center">SMTP Client</td><td align="center">The smtplib module defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon.</td></tr></tbody>
+</table>
+
+        <p>Some commonly used Python libraries include TensorFlow for high-level computations, Matplotlib for data visualization, and Pandas for data analysis.</p>
+
+        <p>In summary, Python libraries are essential tools that enhance the efficiency of Python programming by providing precompiled, reusable code for a variety of applications.</p>
+       
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="apps.html">Apps</a> | <a href="python.html">Python</a> | <a href="lib.html">Python Library</a> | <a href="contact.html">Contact Us</a></p>
+      <p>This webpage designed from html5webtemplates.co.uk template.<br> Copyright &copy; simplestyle_banner | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a></p>
+    </div>
+  </div>
+</body>
+</html>
